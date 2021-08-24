@@ -1,0 +1,82 @@
+body{
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    padding-left: 5%;
+    height: auto;
+    padding-bottom: 5%;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+.container{
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#lastname{
+    margin-left:5%
+}
+
+
+
+.text{
+    width: 25%;
+    height: 25px;
+}
+
+.textaddress{
+    width: 70%;
+    height: 25px;
+}
+
+
+.femaleradio{
+    margin-left: 5%;
+}
+
+.checkbox{
+    margin-right: 5%;
+  
+}
+
+
+
+.checkboxsize{
+    width: 5%;
+    height: 20px;
+}
+
+.submit{
+    height: 30px;
+    
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+table{
+   
+    margin-top: 5%;
+    margin-right: 40%;
+    width: 90%;
+    table-layout: auto;
+    
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+td{
+    text-align: center;
+}
